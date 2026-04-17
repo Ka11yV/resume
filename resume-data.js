@@ -5,7 +5,7 @@ window.resumeData = {
     eyebrow: "GitHub Resume / 2026 Edition",
     summary:
       "공개 GitHub 프로젝트와 협업 기록을 바탕으로, 문제를 빠르게 구현 가능한 제품으로 옮기는 데 강점을 갖고 있습니다. 프론트엔드 구현, AI 기능 연결, 데이터 기반 실험, 데스크톱 유틸리티 제작까지 다양한 형태의 결과물을 꾸준히 만들어 왔습니다.",
-    avatar: "https://avatars.githubusercontent.com/u/64436413?v=4",
+    avatar: "./assets/profile.JPG",
     location: "South Korea",
     contactEmail: "kally.intech@gmail.com",
     github: "https://github.com/Ka11yV",

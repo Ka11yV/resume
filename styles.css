@@ -265,9 +265,11 @@ a.button {
   width: min(100%, 290px);
   aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center top;
+  background: #d9e0e8;
   border-radius: 28px;
-  border: 1px solid rgba(52, 41, 28, 0.08);
-  box-shadow: 0 20px 40px rgba(35, 54, 74, 0.12);
+  border: 1px solid rgba(20, 32, 43, 0.12);
+  box-shadow: 0 14px 30px rgba(25, 39, 52, 0.1);
 }
 
 .meta-card,
