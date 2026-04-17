@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ka11y | Git Resume</title>
+    <meta
+      name="description"
+      content="Ka11y의 GitHub 활동과 프로젝트를 기반으로 구성한 온라인 이력서입니다."
+    />
+    <meta name="theme-color" content="#f4efe7" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+      <div class="grid"></div>
+    </div>
+
+    <header class="topbar">
+      <a class="brand" href="#home">Git Resume</a>
+      <nav class="topnav" id="topnav"></nav>
+    </header>
+
+    <main id="home" class="page">
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" id="eyebrow"></p>
+          <h1 id="name"></h1>
+          <p class="headline" id="headline"></p>
+          <p class="summary" id="summary"></p>
+          <div class="cta-row" id="cta-row"></div>
+          <ul class="chips" id="focus-chips"></ul>
+        </div>
+        <aside class="hero-panel">
+          <img id="avatar" class="avatar" alt="프로필 사진" />
+          <div class="meta-card">
+            <p class="meta-label">Quick Facts</p>
+            <ul class="meta-list" id="meta-list"></ul>
+          </div>
+        </aside>
+      </section>
+
+      <section class="stats-section" id="stats">
+        <div class="section-heading">
+          <p class="section-kicker">Snapshot</p>
+          <h2>핵심 지표</h2>
+        </div>
+        <div class="stats-grid" id="stats-grid"></div>
+      </section>
+
+      <section class="strengths-section" id="strengths">
+        <div class="section-heading">
+          <p class="section-kicker">Strengths</p>
+          <h2>강점</h2>
+        </div>
+        <div class="strength-grid" id="strength-grid"></div>
+      </section>
+
+      <section class="stack-section" id="stack">
+        <div class="section-heading">
+          <p class="section-kicker">Stack</p>
+          <h2>기술 스택</h2>
+        </div>
+        <div class="stack-grid" id="stack-grid"></div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <div class="section-heading">
+          <p class="section-kicker">Projects</p>
+          <h2>대표 프로젝트</h2>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="timeline-section" id="timeline">
+        <div class="section-heading">
+          <p class="section-kicker">Timeline</p>
+          <h2>GitHub 활동 흐름</h2>
+        </div>
+        <div class="timeline" id="timeline-list"></div>
+      </section>
+
+      <section class="writing-section" id="writing">
+        <div class="section-heading">
+          <p class="section-kicker">Learning</p>
+          <h2>학습과 기록</h2>
+        </div>
+        <div class="writing-card" id="writing-card"></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-heading">
+          <p class="section-kicker">Contact</p>
+          <h2>연결하기</h2>
+        </div>
+        <div class="contact-box" id="contact-box"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p id="footer-note"></p>
+    </footer>
+
+    <script src="./resume-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
