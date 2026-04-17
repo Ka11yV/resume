@@ -1,25 +1,25 @@
 window.resumeData = {
   profile: {
     name: "Ka11y",
-    role: "AI 기능을 실제 사용자 경험으로 연결하는 개발자",
+    role: "백엔드와 데이터 흐름 설계에 강점을 두는 개발자",
     eyebrow: "GitHub Resume / 2026 Edition",
     summary:
-      "공개 GitHub 프로젝트와 협업 기록을 바탕으로, 문제를 빠르게 구현 가능한 제품으로 옮기는 데 강점을 갖고 있습니다. 프론트엔드 구현, AI 기능 연결, 데이터 기반 실험, 데스크톱 유틸리티 제작까지 다양한 형태의 결과물을 꾸준히 만들어 왔습니다.",
+      "공개 GitHub 프로젝트와 협업 기록을 바탕으로, 서비스의 핵심 로직과 데이터 흐름을 구현 가능한 형태로 만드는 데 강점을 갖고 있습니다. 백엔드 구조 설계, 데이터 처리, 시스템 연결, AI 기능 연동을 중심으로 결과물을 쌓아 가고 있습니다.",
     avatar: "./assets/profile.JPG",
     location: "South Korea",
     contactEmail: "kally.intech@gmail.com",
     github: "https://github.com/Ka11yV",
     resumeRepo: "https://github.com/Ka11yV/resume",
     focus: [
+      "Backend Development",
+      "Data Flow Design",
       "AI Integration",
-      "Frontend Development",
-      "UX Design",
-      "Product Thinking",
+      "System Architecture",
     ],
     quickFacts: [
       { label: "GitHub ID", value: "@Ka11yV" },
-      { label: "주요 역량", value: "AI · Frontend · UX" },
-      { label: "작업 방향", value: "작동하는 제품을 빠르게 검증 가능한 형태로 구현" },
+      { label: "주요 역량", value: "Backend · Data · AI" },
+      { label: "작업 방향", value: "서비스 로직과 시스템 흐름을 안정적으로 구현" },
       { label: "연락처", value: "kally.intech@gmail.com" },
     ],
   },
@@ -50,7 +50,7 @@ window.resumeData = {
     {
       value: "4",
       label: "프로젝트 축",
-      note: "AI · Frontend · Data · Utility",
+      note: "Backend · AI · Data · Utility",
     },
     {
       value: "3",
@@ -60,31 +60,31 @@ window.resumeData = {
   ],
   strengths: [
     {
-      title: "빠른 구현과 제품화",
+      title: "서비스 로직을 구현으로 옮기는 속도",
       description:
-        "아이디어 단계에서 멈추기보다 실제로 동작하는 결과물을 만드는 쪽에 강점이 있습니다. 웹 서비스, 분석 대시보드, macOS 유틸리티까지 서로 다른 형태의 프로젝트를 짧은 사이클로 구현해 왔습니다.",
+        "아이디어 단계에서 멈추기보다 실제로 동작하는 결과물을 만드는 쪽에 강점이 있습니다. 서비스 로직, 일정 처리, 데이터 흐름, 디바이스 연결처럼 핵심 기능을 먼저 구조화하고 구현해 왔습니다.",
     },
     {
-      title: "사용자 경험 중심의 프론트엔드",
+      title: "백엔드와 데이터 흐름 중심 사고",
       description:
-        "화면을 단순히 만드는 데서 끝나지 않고 정보 구조와 사용 흐름을 함께 설계합니다. React, Next.js, JavaScript 기반 프로젝트를 통해 기능 구현과 인터랙션 설계를 함께 다뤄 왔습니다.",
+        "화면보다 먼저 서비스 내부 동작을 생각하는 편입니다. 일정 데이터 관리, QR 기반 연결 흐름, 분석 데이터 처리, 서버 연동 구조처럼 기능의 기반이 되는 로직을 우선 설계합니다.",
     },
     {
       title: "개인 작업과 협업을 모두 이어가는 실행력",
       description:
-        "개인 프로젝트에서는 빠른 의사결정으로 속도를 내고, 협업 프로젝트에서는 저장소와 이슈 흐름에 맞춰 역할을 나누어 진행해 왔습니다. 혼자 만드는 일과 함께 만드는 일 모두 익숙합니다.",
+        "개인 프로젝트에서는 빠른 의사결정으로 속도를 내고, 협업 프로젝트에서는 저장소와 이슈 흐름에 맞춰 역할을 나누어 진행해 왔습니다. 단독 구현과 팀 협업 모두에서 꾸준히 결과를 남겨 왔습니다.",
     },
   ],
   stackGroups: [
     {
-      title: "Frontend",
-      description: "웹 인터페이스와 사용자 경험 구현에 주로 사용한 기술입니다.",
-      items: ["React", "Next.js", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS"],
+      title: "Backend / Data",
+      description: "서비스 로직, 데이터 처리, 시스템 연결에 주로 사용한 기술입니다.",
+      items: ["Spring Boot", "Java", "Node.js", "Python", "MongoDB", "MySQL", "Pandas", "Docker"],
     },
     {
-      title: "Backend / Data",
-      description: "서비스 기능 연결과 데이터 분석 작업에 활용한 기술입니다.",
-      items: ["Spring Boot", "Node.js", "Python", "Pandas", "Streamlit", "MongoDB"],
+      title: "Application / Client",
+      description: "앱 흐름 검증과 사용자 기능 구현에 사용한 기술입니다.",
+      items: ["SwiftUI", "Swift", "JavaScript", "React", "HTML/CSS", "Tailwind CSS"],
     },
     {
       title: "Tooling / Platform",
@@ -98,8 +98,8 @@ window.resumeData = {
       period: "2026.03 - 2026.10",
       role: "졸업작품 / 진행 중",
       description:
-        "AI 기반 스마트 디바이스 어시스턴트 졸업작품 프로젝트입니다. 현재는 설계와 초기 구현을 병행하는 단계로, 모바일 앱에서 디바이스 연결, QR 페어링, 일정 관리, 매뉴얼 확인 같은 사용 흐름을 먼저 구체화하고 있습니다.",
-      tags: ["SwiftUI", "iOS", "AI Assistant", "QR Pairing", "Schedule", "Graduation Project"],
+        "AI 기반 스마트 디바이스 어시스턴트 졸업작품 프로젝트입니다. 현재는 설계와 초기 구현을 병행하는 단계로, 디바이스 연결, QR 페어링, 일정 관리, 서버 연동 구조를 중심으로 핵심 기능 흐름을 구체화하고 있습니다.",
+      tags: ["Backend", "SwiftUI", "iOS", "AI Assistant", "QR Pairing", "Graduation Project"],
       links: [
         { label: "App Repo", href: "https://github.com/ai-purby/purby" },
         { label: "Backend Repo", href: "https://github.com/ai-purby/purby-backend" },
@@ -121,8 +121,8 @@ window.resumeData = {
       period: "2025.11",
       role: "팀 프로젝트",
       description:
-        "동양미래대학교 학생을 위한 캠퍼스 플랫폼 프로젝트입니다. 공지 알림, 과제 마감 관리, 강의 평가처럼 학생 생활에 필요한 핵심 기능을 하나의 서비스 흐름 안에서 제공하도록 구성했습니다.",
-      tags: ["Java", "Servlet", "JSP", "Tailwind CSS", "MySQL"],
+        "동양미래대학교 학생을 위한 캠퍼스 플랫폼 프로젝트입니다. 공지 알림, 과제 마감 관리, 강의 평가처럼 학생 생활에 필요한 핵심 기능을 서비스 로직과 데이터 처리 흐름 안에서 묶어 구현했습니다.",
+      tags: ["Java", "Servlet", "JSP", "MySQL", "Backend"],
       links: [
         { label: "GitHub", href: "https://github.com/Ka11yV/Dongbaeksoop" },
       ],
@@ -143,11 +143,11 @@ window.resumeData = {
       period: "2024.06 - 2024.07",
       role: "팀 프로젝트",
       description:
-        "개발자를 위한 커뮤니티 서비스 프로젝트입니다. 포스팅, 모임, Q&A 기능을 중심으로 서비스 구조를 설계했고, 프론트엔드와 백엔드를 나누어 협업 형태로 진행했습니다.",
-      tags: ["React", "JavaScript", "Node.js", "MongoDB", "Community"],
+        "개발자를 위한 커뮤니티 서비스 프로젝트입니다. 포스팅, 모임, Q&A 기능을 중심으로 서비스 구조를 설계했고, 백엔드 저장소와 데이터 흐름까지 함께 나누어 협업 형태로 진행했습니다.",
+      tags: ["Node.js", "MongoDB", "JavaScript", "Community", "Backend"],
       links: [
-        { label: "Frontend Repo", href: "https://github.com/Ka11yV/dev-ing-fe" },
         { label: "Backend Repo", href: "https://github.com/Ka11yV/dev-ing-be" },
+        { label: "Frontend Repo", href: "https://github.com/Ka11yV/dev-ing-fe" },
         { label: "배포", href: "https://dev-ing.netlify.app/" },
       ],
     },
@@ -157,13 +157,13 @@ window.resumeData = {
       title: "퍼비 졸업작품 설계 및 초기 구현 진행",
       when: "2026.03 - 2026.10",
       detail:
-        "졸업작품으로 진행 중인 `ai-purby/purby` 프로젝트에서 모바일 앱 구조와 사용자 흐름을 먼저 설계하고, 디바이스 연결, QR 스캔, 일정 관리, 설정 화면 등 핵심 기능의 초기 구현을 진행하고 있습니다.",
+        "졸업작품으로 진행 중인 `ai-purby/purby` 프로젝트에서 디바이스 연결, QR 스캔, 일정 관리, 서버 연동을 포함한 핵심 기능 구조를 설계하고 초기 구현을 진행하고 있습니다.",
     },
     {
-      title: "AI 제품화 중심의 개발 방향을 공개 프로필에 정리",
+      title: "백엔드와 AI 연동 중심의 개발 방향 정리",
       when: "2026.04",
       detail:
-        "GitHub 프로필 README에서 AI Integration, Frontend Dev, UX Design을 핵심 축으로 정리하고 현재 작업 방향을 외부에서 이해하기 쉬운 형태로 공개했습니다.",
+        "GitHub 프로필과 공개 활동을 통해 AI 연동과 시스템 구현 중심의 개발 방향을 정리하고, 현재 진행 중인 프로젝트 흐름을 외부에서 이해하기 쉬운 형태로 공개했습니다.",
     },
     {
       title: "ClipSnap 공개 및 macOS 유틸리티 제작",
@@ -187,7 +187,7 @@ window.resumeData = {
       title: "커뮤니티 서비스 dev-ing 참여",
       when: "2024.06 - 2024.07",
       detail:
-        "개발자 커뮤니티 서비스 구축을 통해 React 기반 화면 구현과 서비스 구조 설계 경험을 축적했습니다.",
+        "개발자 커뮤니티 서비스 구축을 통해 커뮤니티 기능 구조와 백엔드 저장소 기반 협업 경험을 축적했습니다.",
     },
   ],
   writing: {
