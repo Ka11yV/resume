@@ -24,13 +24,14 @@ window.resumeData = {
     ],
   },
   nav: [
-    { id: "stats", label: "지표" },
+    { id: "hero", label: "기본 정보" },
+    { id: "stats", label: "요약" },
     { id: "strengths", label: "강점" },
     { id: "stack", label: "기술 스택" },
     { id: "projects", label: "프로젝트" },
     { id: "timeline", label: "활동" },
     { id: "writing", label: "기록" },
-    { id: "contact", label: "연결" },
+    { id: "contact", label: "연락처" },
   ],
   ctas: [
     { label: "GitHub 프로필 보기", href: "https://github.com/Ka11yV", variant: "primary" },
@@ -206,7 +207,7 @@ window.resumeData = {
   },
   contact: {
     intro:
-      "이 이력서는 GitHub 공개 활동과 저장소 정보를 중심으로 구성했습니다. 이름, 학력, 자격, 세부 경력은 `resume-data.js`에서 바로 확장할 수 있습니다.",
+      "이 이력서는 GitHub 공개 활동과 저장소 정보를 중심으로 정리한 온라인 이력서입니다. 필요하면 이름, 학력, 자격, 세부 경력도 같은 구조로 확장할 수 있습니다.",
     links: [
       { label: "GitHub", href: "https://github.com/Ka11yV" },
       { label: "Email", href: "mailto:kally.intech@gmail.com" },
