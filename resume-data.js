@@ -94,6 +94,18 @@ window.resumeData = {
   ],
   projects: [
     {
+      title: "Purby",
+      period: "2026.03 - 2026.10",
+      role: "졸업작품 / 진행 중",
+      description:
+        "AI 기반 스마트 디바이스 어시스턴트 졸업작품 프로젝트입니다. 현재는 설계와 초기 구현을 병행하는 단계로, 모바일 앱에서 디바이스 연결, QR 페어링, 일정 관리, 매뉴얼 확인 같은 사용 흐름을 먼저 구체화하고 있습니다.",
+      tags: ["SwiftUI", "iOS", "AI Assistant", "QR Pairing", "Schedule", "Graduation Project"],
+      links: [
+        { label: "App Repo", href: "https://github.com/ai-purby/purby" },
+        { label: "Backend Repo", href: "https://github.com/ai-purby/purby-backend" },
+      ],
+    },
+    {
       title: "ClipSnap",
       period: "2026.04",
       role: "개인 프로젝트",
@@ -141,6 +153,12 @@ window.resumeData = {
     },
   ],
   timeline: [
+    {
+      title: "퍼비 졸업작품 설계 및 초기 구현 진행",
+      when: "2026.03 - 2026.10",
+      detail:
+        "졸업작품으로 진행 중인 `ai-purby/purby` 프로젝트에서 모바일 앱 구조와 사용자 흐름을 먼저 설계하고, 디바이스 연결, QR 스캔, 일정 관리, 설정 화면 등 핵심 기능의 초기 구현을 진행하고 있습니다.",
+    },
     {
       title: "AI 제품화 중심의 개발 방향을 공개 프로필에 정리",
       when: "2026.04",
