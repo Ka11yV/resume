@@ -1,10 +1,10 @@
 window.resumeData = {
   profile: {
     name: "Ka11y",
-    role: "백엔드와 데이터 흐름 설계에 강점을 두는 개발자",
+    role: "백엔드와 시스템 흐름 설계에 강점을 두는 개발자",
     eyebrow: "GitHub Resume / 2026 Edition",
     summary:
-      "공개 GitHub 프로젝트와 협업 기록을 바탕으로, 서비스의 핵심 로직과 데이터 흐름을 구현 가능한 형태로 만드는 데 강점을 갖고 있습니다. 백엔드 구조 설계, 데이터 처리, 시스템 연결, AI 기능 연동을 중심으로 결과물을 쌓아 가고 있습니다.",
+      "공개 GitHub 프로젝트와 협업 기록을 바탕으로, 서비스의 핵심 로직과 데이터 흐름을 구현 가능한 형태로 만드는 데 강점을 갖고 있습니다. 백엔드 구조 설계, 시스템 프로그래밍, 데이터 처리, AI 기능 연동을 중심으로 결과물을 쌓아 가고 있습니다.",
     avatar: "./assets/profile.JPG",
     location: "South Korea",
     contactEmail: "kally.intech@gmail.com",
@@ -12,13 +12,14 @@ window.resumeData = {
     resumeRepo: "https://github.com/Ka11yV/resume",
     focus: [
       "Backend Development",
+      "System Programming",
       "Data Flow Design",
       "AI Integration",
       "System Architecture",
     ],
     quickFacts: [
       { label: "GitHub ID", value: "@Ka11yV" },
-      { label: "주요 역량", value: "Backend · Data · AI" },
+      { label: "주요 역량", value: "Backend · System · Data · AI" },
       { label: "작업 방향", value: "서비스 로직과 시스템 흐름을 안정적으로 구현" },
       { label: "연락처", value: "kally.intech@gmail.com" },
     ],
@@ -39,19 +40,19 @@ window.resumeData = {
   ],
   stats: [
     {
-      value: "8+",
+      value: "9",
       label: "공개 저장소",
-      note: "직접 확인 가능한 프로젝트 기준",
+      note: "GitHub 공개 저장소 기준",
     },
     {
-      value: "76",
+      value: "90+",
       label: "공개 기여 수",
-      note: "2026-04-18 기준 GitHub 공개 집계",
+      note: "2026-04-21 기준 GitHub 공개 집계",
     },
     {
-      value: "4",
+      value: "5",
       label: "프로젝트 축",
-      note: "Backend · AI · Data · Utility",
+      note: "Backend · System · AI · Data · Utility",
     },
     {
       value: "3",
@@ -81,6 +82,11 @@ window.resumeData = {
       title: "Backend / Data",
       description: "서비스 로직, 데이터 처리, 시스템 연결에 주로 사용한 기술입니다.",
       items: ["Spring Boot", "Java", "Node.js", "Python", "MongoDB", "MySQL", "Pandas", "Docker"],
+    },
+    {
+      title: "System / Network",
+      description: "네트워크 소켓과 이벤트 기반 I/O 흐름을 구현할 때 사용한 기술입니다.",
+      items: ["C", "Linux", "epoll", "TCP Socket", "Non-blocking I/O", "ncursesw"],
     },
     {
       title: "Application / Client",
@@ -115,6 +121,17 @@ window.resumeData = {
       tags: ["Swift", "macOS", "Menu Bar App", "Utility"],
       links: [
         { label: "GitHub", href: "https://github.com/Ka11yV/clipsnap" },
+      ],
+    },
+    {
+      title: "epoll-socket-chat",
+      period: "2026.04",
+      role: "시스템 프로그래밍 프로젝트",
+      description:
+        "Linux epoll과 non-blocking socket을 사용해 구현한 C 기반 터미널 채팅 프로그램입니다. 단일 이벤트 루프에서 다중 클라이언트를 처리하고, 브로드캐스트, 귓속말, 접속자 목록, 닉네임 변경 기능을 지원합니다.",
+      tags: ["C", "Linux", "epoll", "TCP Socket", "ncursesw", "Non-blocking I/O"],
+      links: [
+        { label: "GitHub", href: "https://github.com/Ka11yV/epoll-socket-chat" },
       ],
     },
     {
@@ -173,6 +190,12 @@ window.resumeData = {
         "Swift 기반 메뉴바 앱을 공개하고, 클립보드 이미지 저장이라는 반복 작업을 실용적인 유틸리티로 정리했습니다.",
     },
     {
+      title: "epoll 기반 소켓 채팅 서버 공개",
+      when: "2026.04",
+      detail:
+        "C와 Linux epoll을 사용해 다중 클라이언트를 처리하는 터미널 채팅 서버와 ncursesw 클라이언트를 구현하고 공개 저장소로 정리했습니다.",
+    },
+    {
       title: "ai-purby 조직 저장소 협업 참여",
       when: "2026.04",
       detail:
@@ -215,5 +238,5 @@ window.resumeData = {
     ],
   },
   footer:
-    "This resume is based on public GitHub activity and repository information. Last updated on 2026-04-18.",
+    "This resume is based on public GitHub activity and repository information. Last updated on 2026-04-21.",
 };
