@@ -79,24 +79,25 @@ window.resumeData = {
   ],
   stackGroups: [
     {
-      title: "Backend / Data",
-      description: "서비스 로직, 데이터 처리, 시스템 연결에 주로 사용한 기술입니다.",
-      items: ["Spring Boot", "Java", "Node.js", "Python", "MongoDB", "MySQL", "Pandas", "Docker"],
+      title: "Frontend / Client",
+      description: "사용자 인터페이스와 클라이언트 애플리케이션 구현에 사용한 기술입니다.",
+      items: ["Swift", "React", "Next.js", "Tailwind CSS", "Electron"],
+    },
+    {
+      title: "Backend",
+      description: "서버 로직, API 처리, 데이터 저장 및 연동에 사용한 기술입니다.",
+      items: ["Spring Boot", "Java", "Node.js", "FastAPI", "PostgreSQL", "MySQL"],
     },
     {
       title: "System / Network",
-      description: "네트워크 소켓과 이벤트 기반 I/O 흐름을 구현할 때 사용한 기술입니다.",
+      description: "시스템 프로그래밍과 네트워크 통신 구조 구현에 사용한 기술입니다.",
       items: ["C", "Linux", "epoll", "TCP Socket", "Non-blocking I/O", "ncursesw"],
     },
+
     {
-      title: "Application / Client",
-      description: "앱 흐름 검증과 사용자 기능 구현에 사용한 기술입니다.",
-      items: ["SwiftUI", "Swift", "JavaScript", "React", "HTML/CSS", "Tailwind CSS"],
-    },
-    {
-      title: "Tooling / Platform",
-      description: "배포, 협업, 데스크톱 환경 구현에 사용한 도구입니다.",
-      items: ["GitHub", "Git", "Swift", "macOS", "Maven", "Netlify"],
+      title: "Infra",
+      description: "빌드, 배포, 협업, 개발 환경 구성에 사용한 도구입니다.",
+      items: ["Docker", "Nginx, AWS EC2", "AWS RDS", "Tailscale", "Github Actions"],
     },
   ],
   projects: [
@@ -125,7 +126,7 @@ window.resumeData = {
     },
     {
       title: "epoll-socket-chat",
-      period: "2026.04",
+      period: "2025.12",
       role: "시스템 프로그래밍 프로젝트",
       description:
         "Linux epoll과 non-blocking socket을 사용해 구현한 C 기반 터미널 채팅 프로그램입니다. 단일 이벤트 루프에서 다중 클라이언트를 처리하고, 브로드캐스트, 귓속말, 접속자 목록, 닉네임 변경 기능을 지원합니다.",
@@ -166,7 +167,7 @@ window.resumeData = {
       links: [
         { label: "Backend Repo", href: "https://github.com/Ka11yV/dev-ing-be" },
         { label: "Frontend Repo", href: "https://github.com/Ka11yV/dev-ing-fe" },
-        { label: "배포", href: "https://dev-ing.netlify.app/" },
+        { label: "배포(현재 서버 구동X)", href: "https://dev-ing.netlify.app/" },
       ],
     },
   ],
