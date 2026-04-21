@@ -1,8 +1,7 @@
 window.resumeData = {
   profile: {
-    name: "Ka11y",
+    name: "김규민",
     role: "백엔드와 시스템 흐름 설계에 강점을 두는 개발자",
-    eyebrow: "GitHub Resume / 2026 Edition",
     summary:
       "공개 GitHub 프로젝트와 협업 기록을 바탕으로, 서비스의 핵심 로직과 데이터 흐름을 구현 가능한 형태로 만드는 데 강점을 갖고 있습니다. 백엔드 구조 설계, 시스템 프로그래밍, 데이터 처리, AI 기능 연동을 중심으로 결과물을 쌓아 가고 있습니다.",
     avatar: "./assets/profile.JPG",
@@ -16,6 +15,7 @@ window.resumeData = {
       "Data Flow Design",
       "AI Integration",
       "System Architecture",
+      "Embedded System"
     ],
     quickFacts: [
       { label: "GitHub ID", value: "@Ka11yV" },
@@ -36,7 +36,6 @@ window.resumeData = {
   ],
   ctas: [
     { label: "GitHub 프로필 보기", href: "https://github.com/Ka11yV", variant: "primary" },
-    { label: "이력서 저장소", href: "https://github.com/Ka11yV/resume", variant: "secondary" },
   ],
   stats: [
     {
@@ -235,9 +234,6 @@ window.resumeData = {
     links: [
       { label: "GitHub", href: "https://github.com/Ka11yV" },
       { label: "Email", href: "mailto:kally.intech@gmail.com" },
-      { label: "Resume Repository", href: "https://github.com/Ka11yV/resume" },
     ],
   },
-  footer:
-    "This resume is based on public GitHub activity and repository information. Last updated on 2026-04-21.",
 };
